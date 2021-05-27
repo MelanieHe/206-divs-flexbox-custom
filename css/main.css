@@ -103,6 +103,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -110,7 +111,9 @@ body {
 
 .wrapper {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   font-weight: 700;
   border-top: solid 1px;
   border-bottom: solid 1px;
@@ -124,17 +127,16 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.5em;
-  height: 300px;
-  padding-right: 1.25em;
-  padding-left: 1.25em;
+  height: auto;
 }
 
 .div-2 {
   border-left: solid 1px;
   border-right: solid 1px;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
 }
 
 
