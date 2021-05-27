@@ -109,15 +109,37 @@ body {
   height: 100%;
 }
 
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%
+  height: auto;
+}
+
+header h1 {
+  font-family: 'Limelight', cursive;
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
+  color: #fff;
+  width: 100%
+  height: auto;
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  font-weight: 700;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
-  border-color: #fff;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
@@ -128,18 +150,29 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  font-size: 1.5em;
+  font-size: 1em;
   height: auto;
 }
 
 .div-2 {
-  border-left: solid 1px;
-  border-right: solid 1px;
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
   padding-left: 1.25em;
   padding-right: 1.25em;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+  height: auto;
+}
 
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
 
 
 /* ==========================================================================
